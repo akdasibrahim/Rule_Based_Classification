@@ -21,7 +21,7 @@ pd.set_option('display.max_columns', 20)
 
 ############
 import pandas as pd
-df=pd.read_csv("WEEK_2/Kural_Tabanli_Siniflandirma_/Kural_Tabanli_Siniflandirma/Kural_Tabanli_Siniflandirma/persona.csv")
+df=pd.read_csv("datasets/persona.csv")
 df.head()
 df.tail()
 df.shape
